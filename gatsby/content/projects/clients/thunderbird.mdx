@@ -1,16 +1,58 @@
 ---
 layout: projectimage
-title: Mozilla Thunderbird
+title: Thunderbird
 categories: 
  - client
-description: A free email & chat app
-author: Frédéric Wang
+thumbnail: /docs/projects/images/thunderbird.png
+description: A free open-source email, calendar & chat app
+author: Mozilla
 maturity: Beta
-language: C
+language: JavaScript
 license: MPL-2.0
-repo: 
+SDK: matrix-js-sdk
+platforms:
+    - Linux
+    - Mac
+    - Windows
+repo: https://hg.mozilla.org/comm-central
+screenshot: /docs/projects/images/thunderbird.png
+home: https://www.thunderbird.net/
+room: "#thunderbird:mozilla.org"
+features:
+    Room directory: no
+    Room tag showing: no
+    Room tag editing: no
+    Search joined rooms: no
+    Room user list: yes
+    Display Room Description: yes
+    Edit Room Description: yes
+    Highlights: no
+    Pushrules: no
+    Send read markers: yes
+    Display read markers: no
+    Sending Invites: yes
+    Accepting Invites: yes
+    Typing Notification: yes
+    E2E: yes
+    Replies: no
+    Attachment uploading: no
+    Attachment downloading: yes
+    Send stickers: no
+    Send formatted messages (markdown): no
+    Rich Text Editor for formatted messages: no
+    Display formatted messages: yes
+    Redacting: yes
+    Multiple Matrix Accounts: yes
+    New user registration: no
+    voip: no
+    Reactions: no
+    Message editing: no
+    Room upgrades: yes
+    # See https://hg.mozilla.org/releases/comm-esr102/file/tip/mail/locales/l10n-changesets.json + en-US (source language)
+    Localisations: 67
+    SSO Support: yes
 ---
 
-Initial support for Matrix in [Mozilla Thunderbird](https://www.mozilla.org/en-US/thunderbird/), available in Nightly since March 2017, and due to land in Instantbird/Thunderbird 54.
+[Thunderbird](https://www.thunderbird.net/) is a free, open-source email, calendar, and chat application which runs on multiple platforms. It supports multiple instant messaging protocols, including IRC, XMPP, and Matrix.
 
-To enable, turn `chat.prpls.prpl-matrix.disable` to `false` in the advanced config editor (>Tools >Options >Advanced >Config Editor).
+Thunderbird is [available for download](https://www.thunderbird.net/) and the [source code is available](https://hg.mozilla.org/comm-central). Additionally there is [documentation for getting started with contributing](https://developer.thunderbird.net/). Please [file any bugs found](https://bugzilla.mozilla.org/enter_bug.cgi?product=Chat+Core&component=Matrix).

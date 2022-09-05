@@ -22,7 +22,7 @@ const Footer = () => (
       <div className="mxfooter__column">
         <a href="/docs/develop" className="mxfooter__link mxfooter__link--primary">Develop Docs</a>
         <a href="/docs/spec" className="mxfooter__link">Spec</a>
-        <a href="/docs/api/client-server" className="mxfooter__link">API Playground</a>
+        <a href="/docs/api/" className="mxfooter__link">API Playground</a>
         <a href="https://matrix.org/code" className="mxfooter__link">Code</a>
       </div>
       <div className="mxfooter__column">
@@ -38,11 +38,12 @@ const Footer = () => (
         <a href="/faq/" className="mxfooter__link">FAQs</a>
         <a href="/matrixlive/" className="mxfooter__link">Matrix Live</a>
         <a href="/security-disclosure-policy/" className="mxfooter__link">Security Disclosure Policy</a>
+        <a href="/hall-of-fame/" className="mxfooter__link">Security Hall of Fame</a>
         <a href="/legal/code-of-conduct/" className="mxfooter__link">Code of Conduct for Matrix.org</a>
         <a href="/legal/" className="mxfooter__link">Legal</a>
         <a href="/contact/" className="mxfooter__link">Contact</a>
         <a href="https://github.com/matrix-org/matrix.org/" className="mxfooter__link">Site Source</a>
-        
+
       </div>
     </div>
     <div className="mxfooter__container mxfooter__container--heel">
@@ -60,7 +61,7 @@ const Footer = () => (
           <img src="/images/twitter.svg" alt="" className="mxfooter__icon" />
         </a>
       </div>
-      <p className="mxfooter__text">© 2021 The Matrix.org Foundation C.I.C.</p>
+      <p className="mxfooter__text">© 2022 The Matrix.org Foundation C.I.C.</p>
     </div>
   </div>
 

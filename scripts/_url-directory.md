@@ -62,7 +62,6 @@
 [#SimpleMatrix:matrix.ffslfl.net]: https://matrix.to/#/#SimpleMatrix:matrix.ffslfl.net
 [#smsmatrix:matrix.org]: https://matrix.to/#/#smsmatrix:matrix.org
 [#spectral:encom.eu.org]: https://matrix.to/#/#spectral:encom.eu.org
-[#synapse-community:matrix.org]: https://matrix.to/#/#synapse-community:matrix.org
 [#synapse-netcore-workers:t2bot.io]: https://matrix.to/#/#synapse-netcore-workers:t2bot.io
 [#synapse-py3:matrix.org]: https://matrix.to/#/#synapse-py3:matrix.org
 [#synapse:matrix.org]: https://matrix.to/#/#synapse:matrix.org
@@ -151,6 +150,7 @@
 [kotlin-matrix-userbots]: https://github.com/koma-im/kotlin-matrix-userbots
 [Krille]: https://matrix.to/#/@krille:chat.regionetz.net
 [krombel]: https://matrix.to/#/@krombel:msg-net.de
+[Libera.Chat]: https://libera.chat/
 [libQMatrixClient]: https://github.com/QMatrixClient/libqmatrixclient
 [Linda]: https://matrix.to/#/@lindalap:matrix.org
 [linuxgaming.life]: https://linuxgaming.life

@@ -1,0 +1,40 @@
+[files]
+extend-exclude = [
+	"*.js*", "*.json", "*.svg",
+	"/unstyled_docs",
+	"/gatsby/content/blog/2020/09/2020-09-04-twim.mdx", # contains typos which are correct in context of their project
+	"/gatsby/content/blog/2020/12/2020-12-18-a-twim.mdx", # contains intentional typos
+	"/gatsby/content/blog/2021/09/2021-09-17-twim.mdx", # contains French, for some reason
+	"/gatsby/content/blog/2022/01/2022-01-21-twim.mdx", # pings scoreboard triggers the typo CI
+    "/gatsby/content/blog/2022/05/2022-05-13-twim.mdx", # typo found in a url
+	"/gatsby/content/blog/2022/07/2022-07-08-twim.mdx", # whos in that room
+	"/gatsby/content/blog/2022/08/2022-08-12-twim.mdx", # tha'
+	"*signed*.txt", # can be removed once https://github.com/crate-ci/typos/issues/401 is fixed
+	"synapse-debian-security-announcement.asc" # has typo but cannot fix due to PGP signature
+]
+
+[default]
+locale = "en"
+check-filename = false
+
+[default.extend-identifiers]
+3uNd3 = "3uNd3"
+96e9afe6 = "96e9afe6"
+LaterGuage = "LaterGuage"
+
+[default.extend-words]
+ba = "ba"
+contributeurs = "contributeurs"
+feld = "feld"
+Flate = "Flate"
+inex = "inex"
+Konversation = "Konversation"
+oder = "oder"
+onl = "onl"
+clos = "clos" # can be changed to json-clos once https://github.com/crate-ci/typos/issues/400 is fixed
+ehr = "ehr" # can be changed to Fuj'ehr once https://github.com/crate-ci/typos/issues/400 is fixed
+ist = "ist" # can be changed to raim.ist once https://github.com/crate-ci/typos/issues/400 is fixed
+loca = "loca" # can be changed to loca.lt once https://github.com/crate-ci/typos/issues/400 is fixed
+ons = "ons" # can be removed once https://github.com/crate-ci/typos/issues/400 is fixed
+ERRO = "ERRO" # can be removed once https://github.com/crate-ci/typos/issues/399 is fixed
+MESSAG = "MESSAG" # can be removed once https://github.com/crate-ci/typos/issues/399 is fixed
